@@ -271,7 +271,7 @@ function getFileExtension(filename)
 
 
       -- Function to clean up discussion tags from all files
-      local function cleanup_discussion_tags()
+       function cleanup_discussion_tags()
         local changed_files = get_changed_files()
         local files_changed = 0
         
@@ -304,7 +304,7 @@ function getFileExtension(filename)
       end
 
       -- Create PR description function (main entry point)
-      local function create_pr_description()
+       function create_pr_description()
         -- Get the target branch (default to main)
         vim.ui.input({
           prompt = "Target branch (default: main): ",
@@ -317,7 +317,7 @@ function getFileExtension(filename)
       end
 
       -- Clean up discussion tags
-      local function cleanup_discussion_tags_cmd()
+       function cleanup_discussion_tags_cmd()
         local files_changed = cleanup_discussion_tags()
         
         if files_changed > 0 then
