@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/caac47c7-70e1-47ef-bedb-57e9cad8a0d5
 # pr-description.nvim
 
 A Neovim plugin for automatically generating comprehensive Pull Request descriptions
@@ -78,8 +77,7 @@ The plugin generates a markdown PR description with the following sections:
 ## Example Generation
 
 
-Uploading pr-description-video.mov…
-
+https://github.com/user-attachments/assets/caac47c7-70e1-47ef-bedb-57e9cad8a0d5
 
 
 ## To Do
