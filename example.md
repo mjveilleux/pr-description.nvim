@@ -1,4 +1,7 @@
 ## What's new?
+
+This is a new PR to show just how cool `pr-description.nvim` is!
+
 ## Asana Tasks
 - [This is my task, the reason for this PR](https://www.mveilleux.com/)
 ## Overview
