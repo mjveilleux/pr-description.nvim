@@ -83,6 +83,7 @@ https://github.com/user-attachments/assets/caac47c7-70e1-47ef-bedb-57e9cad8a0d5
 ## To Do
 - generalize comments to better cleanup discussion tags (only accounts for SQL comments currently)
 - I'm getting some weird errors with my buffers. If you try to run `:PRCreateDesc` again, it conflicts with the current buffer.
+- Generalize tasks (right now it's hard coded for Asana)
 
 
 ## License
