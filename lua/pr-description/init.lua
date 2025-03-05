@@ -256,7 +256,7 @@ M.setup = function()
         return "" -- We're handling everything asynchronously
       end
 
-function getFileExtension(filename)
+function getFileExtension(filename) --@pr_discussion_tag this functoin is sus fr. Maybe delete or something or put it in a new branch or whatever who cares
     -- Match the last period and any characters that follow it until the end of the string
     local extension = string.match(filename, "%.([^%.]+)$")
     
