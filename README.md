@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/caac47c7-70e1-47ef-bedb-57e9cad8a0d5
 # pr-description.nvim
 
 A Neovim plugin for automatically generating comprehensive Pull Request descriptions
@@ -41,6 +43,8 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ### Default Keymaps
 
+
+
 - `<leader>PRD` - Create [P][R] [D]escription
 - `<leader>CDT` - [C]leanup [D]iscussion [T]ags
 
@@ -70,6 +74,12 @@ The plugin generates a markdown PR description with the following sections:
 - use [vim-create-pr](https://github.com/kristijanhusak/vim-create-pr) to automatically create PR
 - use [lazygit](https://github.com/kdheepak/lazygit.nvim). This at least forces me to write better git messages which would look really nice in the PR Description when you are ready to request
 - This plugin forces me to be better at choosing what and when to commit. You don't want to have a messy git commit history (once you see it in the PR description)
+
+## Example Generation
+
+
+Uploading pr-description-video.mov…
+
 
 
 ## To Do
