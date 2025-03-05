@@ -1,0 +1,26 @@
+================================================================================
+                                                         *pr-description.nvim*
+Generate PR descriptions with commit history and discussion tags.
+
+COMMANDS                                           *pr-description-commands*
+*:PRCreateDesc*     Creates a PR description with commits, file changes, and
+                   discussion tags. Prompts for target branch and Asana tasks.
+
+*:PRCleanupTags*    Removes all @pr_discussion_tag annotations from code files.
+
+TAGS                                              *pr-description-tags*
+Add `@pr_discussion_tag` to any line to include it in the PR description.
+
+MAPPINGS                                          *pr-description-mappings*
+<leader>PRD         Create PR description
+<leader>CDT         Clean up discussion tags
+
+SETUP                                             *pr-description-setup*
+>
+    {
+      "yourusername/pr-description.nvim",
+      cmd = { "PRCreateDesc", "PRCleanupTags" },
+      config = true
+    }
+
+ vim:tw=78:ts=8:ft=help:norl:
