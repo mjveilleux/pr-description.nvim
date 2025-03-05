@@ -67,13 +67,14 @@ The plugin generates a markdown PR description with the following sections:
 
 ## Best Practices
 
-- use create-pr from kristijanusyk to automatically create PR
-- use lazygit. This at least forces me to write better git messages which would look really nice in the PR Description when you are ready to request
+- use [vim-create-pr](https://github.com/kristijanhusak/vim-create-pr) to automatically create PR
+- use [lazygit](https://github.com/kdheepak/lazygit.nvim). This at least forces me to write better git messages which would look really nice in the PR Description when you are ready to request
 - This plugin forces me to be better at choosing what and when to commit. You don't want to have a messy git commit history (once you see it in the PR description)
 
 
 ## To Do
 - generalize comments to better cleanup discussion tags (only accounts for SQL comments currently)
+- I'm getting some weird errors with my buffers. If you try to run `:PRCreateDesc` again, it conflicts with the current buffer.
 
 
 ## License
