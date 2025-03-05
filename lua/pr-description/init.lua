@@ -182,7 +182,7 @@ M.setup = function()
 			end
 
 			-- Discussion section
-			table.insert(template, "## Discussion")
+			table.insert(template, "## Discussion")--@pr_discussion_tag what is this about?
 			table.insert(template, "")
 
 			-- Add discussions from files with discussion tags
