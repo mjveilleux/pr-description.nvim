@@ -7,10 +7,6 @@ vim.g.loaded_pr_description = true
 -- Get the module
 local pr_desc = require("pr-description.nvim")
 
-vim.api.nvim_create_user_command("PRDescription", function()
-  pr_desc.show_description()
-end, { nargs = 0 })
-
 vim.api.nvim_create_user_command("PRCreateDesc", function()
   pr_desc.create_pr_description()
 end, { nargs = 0 })
