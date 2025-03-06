@@ -76,7 +76,7 @@ The plugin generates a markdown PR description with the following sections:
 
 ## Example Generation
 
-https://youtu.be/WrARCFtyWZ4
+[![Watch the video](https://img.youtube.com/vi/WrARCFtyWZ4/maxresdefault.jpg)](https://youtu.be/WrARCFtyWZ4)
 
 
 ## To Do
