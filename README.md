@@ -76,8 +76,7 @@ The plugin generates a markdown PR description with the following sections:
 
 ## Example Generation
 
-
-https://github.com/user-attachments/assets/caac47c7-70e1-47ef-bedb-57e9cad8a0d5
+https://youtu.be/WrARCFtyWZ4
 
 
 ## To Do
