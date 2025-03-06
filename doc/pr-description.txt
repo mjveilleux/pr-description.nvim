@@ -4,7 +4,7 @@ Generate PR descriptions with commit history and discussion tags.
 
 COMMANDS                                           *pr-description-commands*
 *:PRCreateDesc*     Creates a PR description with commits, file changes, and
-                   discussion tags. Prompts for target branch and Asana tasks.
+                   discussion tags. Prompts for target branch and tasks.
 
 *:PRCleanupTags*    Removes all @pr_discussion_tag annotations from code files.
 
