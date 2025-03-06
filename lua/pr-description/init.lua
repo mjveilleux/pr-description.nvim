@@ -16,7 +16,7 @@ M.setup = function()
 		-- %h for the commit hash
 		local handle = io.popen(string.format("git log %s..HEAD --pretty=format:'* **%%h** - %%B'", target_branch))
 		local raw_result = handle:read("*a")
-		handle:close()
+		handle:close() --@pr_discussion_tag
 
 		-- Process each commit to format the message properly
 		local commits = {}
