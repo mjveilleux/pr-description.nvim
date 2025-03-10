@@ -84,7 +84,6 @@ The plugin generates a markdown PR description with the following sections:
 - I'm getting some weird errors with my buffers. If you try to run `:PRCreateDesc` again, it conflicts with the current buffer.
 - Generalize tasks (right now it's hard coded for Asana)
 
-
 ## License
 
 MIT
